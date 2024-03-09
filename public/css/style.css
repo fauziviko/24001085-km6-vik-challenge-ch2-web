@@ -1,0 +1,28 @@
+.navbar-nav {
+    margin-left: auto;
+  }
+  ul {
+    list-style: none; 
+}
+
+li::before {
+    content: none; 
+}
+
+.sectionSearch{
+  background-color: white;
+  position: relative;
+  transform: translateY(-50%)
+}
+@media (max-width:600px){
+  .sectionSearch {
+    margin-top: 20px;
+    transform: translateY(0);
+  }
+}
+@media (max-width:1024px){
+  .sectionSearch {
+    transform: translateY(0);
+    margin-bottom: 40px;
+  }
+}
